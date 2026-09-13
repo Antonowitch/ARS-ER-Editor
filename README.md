@@ -7,7 +7,7 @@ Entstanden für die Datenbankreihe im Beruflichen Gymnasium (Praktische
 Informatik) an der Adolf-Reichwein-Schule Marburg. Läuft unter Windows, macOS
 und Linux; gebraucht wird nur **Java 17 oder neuer**.
 
-![ER-Diagramm](bilder/er-diagramm.png)
+![Das Flughafenbeispiel im Editor](bilder/er-diagramm.png)
 
 ## Herunterladen
 
@@ -35,14 +35,12 @@ ein verschobener Kasten nimmt sie mit.
 **Kardinalitäten in min-max-Notation**, frei beschriftbar und einzeln
 verschiebbar.
 
-![Flughafenbeispiel](bilder/flughafen.png)
-
 **Das Relationenmodell ist eine eigene Diagrammart** — Tabellen mit
 Schlüsselkennzeichen, Attributname und Datentyp, verbunden durch knickbare
 Linien vom Fremdschlüssel zum zugehörigen Primärschlüssel. Strg+F hebt alle
 Fremdschlüssel blau hervor.
 
-![Relationenmodell](bilder/relationenmodell.png)
+![Das erzeugte Relationenmodell](bilder/relationenmodell.png)
 
 **Neun Beispiele aus dem Unterricht** liegen bei, vom einfachen Einstieg bis
 zu einer Flughafenverwaltung mit sechs Entitätstypen und fünf Beziehungen.

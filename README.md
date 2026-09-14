@@ -37,8 +37,11 @@ verschiebbar.
 
 **Das Relationenmodell ist eine eigene Diagrammart** — Tabellen mit
 Schlüsselkennzeichen, Attributname und Datentyp, verbunden durch knickbare
-Linien vom Fremdschlüssel zum zugehörigen Primärschlüssel. Strg+F hebt alle
-Fremdschlüssel blau hervor.
+Linien vom Fremdschlüssel zum zugehörigen Primärschlüssel. An jeder Verbindung
+steht, welche Seite die viele ist — **n** beim Fremdschlüssel, **1** beim
+Primärschlüssel und bei einer *is-a*-Beziehung auf beiden Seiten eine 1, weil
+der Untertyp den Schlüssel des Obertyps erbt; verschieben lassen sich die
+Angaben einzeln. Strg+F hebt alle Fremdschlüssel blau hervor.
 
 ![Das erzeugte Relationenmodell](bilder/relationenmodell.png)
 

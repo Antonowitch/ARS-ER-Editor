@@ -45,6 +45,11 @@ Angaben einzeln. Strg+F hebt alle Fremdschlüssel blau hervor.
 
 ![Das erzeugte Relationenmodell](bilder/relationenmodell.png)
 
+**Export als PNG und als SVG.** Das Vektorbild bleibt beim Vergrößern scharf —
+für Arbeitsblätter, Beamer und Ausdruck; LibreOffice und Word fügen es ein wie
+jedes andere Bild. Ist etwas **ausgewählt**, wird nur dieser Ausschnitt
+exportiert, eng zugeschnitten.
+
 **Neun Beispiele aus dem Unterricht** liegen bei, vom einfachen Einstieg bis
 zu einer Flughafenverwaltung mit sechs Entitätstypen und fünf Beziehungen.
 

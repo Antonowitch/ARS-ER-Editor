@@ -4,8 +4,8 @@ Ein Editor für **Entity-Relationship-Diagramme in Chen-Notation** — und für
 das **Relationenmodell**, das daraus entsteht.
 
 Entstanden für die Datenbankreihe im Beruflichen Gymnasium (Praktische
-Informatik) an der Adolf-Reichwein-Schule Marburg. Läuft unter Windows, macOS
-und Linux; gebraucht wird nur **Java 17 oder neuer**.
+Informatik) an der ARS. Läuft unter Windows, macOS und Linux; gebraucht wird
+nur **Java 17 oder neuer**.
 
 ![Das Flughafenbeispiel im Editor](bilder/er-diagramm.png)
 

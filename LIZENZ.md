@@ -22,7 +22,9 @@ und der `LIESMICH.txt` weitergeben.
   kostenpflichtigen Angeboten oder Nutzung in kostenpflichtigen
   Schulungen ohne vorherige Absprache.
 - **Veränderung des Programms** und Weitergabe veränderter Fassungen.
-  Der Quelltext ist nicht Teil dieser Veröffentlichung.
+  Der Quelltext ist nicht Teil dieser Veröffentlichung. Gemeint ist der
+  **eigene** Teil des Programms; für die mitgelieferte Bibliothek
+  FlatLaf gilt deren eigene, weitergehende Lizenz — siehe unten.
 
 ## Warum der Quelltext fehlt
 
@@ -34,6 +36,24 @@ Knopfdruck erledigt, übt sie niemand mehr.
 Läge der Quelltext offen, wäre diese Sperre in wenigen Minuten entfernt.
 Das ist der einzige Grund. Lehrkräfte, die den Quelltext für ihren
 eigenen Unterricht ansehen möchten, dürfen mich gerne fragen.
+
+## Mitgelieferte Fremdsoftware
+
+Seit V2.0 steckt in der JAR-Datei eine fremde Bibliothek:
+
+**[FlatLaf](https://www.formdev.com/flatlaf/) 3.7.2**, © Karl Tauber /
+FormDev Software GmbH, **Apache License 2.0**. Sie liefert das dunkle
+Erscheinungsbild; mit dem Standardaussehen von Java wäre es nicht zu machen.
+
+- Die Bibliothek ist **unverändert** übernommen.
+- Ihr **vollständiger Lizenztext** liegt in der JAR unter
+  `META-INF/LIZENZ-FlatLaf.txt` — byte-gleich mit dem Original.
+- Die Apache License 2.0 erlaubt ausdrücklich auch das **Verändern und
+  Weitergeben der Bibliothek selbst**. Dieses Recht schränkt die
+  Nutzungserlaubnis oben nicht ein und kann es auch gar nicht.
+
+Alles Übrige im Paket — Programm, Beispiele, Anleitung — ist eigene Arbeit
+und untersteht dieser Nutzungserlaubnis.
 
 ## Keine Gewährleistung
 

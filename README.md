@@ -16,9 +16,9 @@ eine ZIP-Datei, auspacken, starten. Keine Installation, kein Setup.
 
 | | |
 |---|---|
-| Windows | `ARS-ER-Editor V1.0 starten.bat` doppelklicken |
-| macOS | `ARS-ER-Editor V1.0 starten.command` doppelklicken — beim ersten Mal einmalig `chmod +x` nötig, siehe LIESMICH |
-| überall | `java -jar ARS-ER-Editor-V1.0.jar` |
+| Windows | `ARS-ER-Editor V2.0 starten.bat` doppelklicken |
+| macOS | `ARS-ER-Editor V2.0 starten.command` doppelklicken — beim ersten Mal einmalig `chmod +x` nötig, siehe LIESMICH |
+| überall | `java -jar ARS-ER-Editor-V2.0.jar` |
 
 ## Was es kann
 
@@ -45,10 +45,26 @@ Angaben einzeln. Strg+F hebt alle Fremdschlüssel blau hervor.
 
 ![Das erzeugte Relationenmodell](bilder/relationenmodell.png)
 
+*Dazu zwei Notizen: die textuelle Schreibweise und das erzeugte
+CREATE-Skript — das Skript geht unten weiter.*
+
+**Die Werkzeugleiste zeigt nur, was im offenen Diagramm etwas bewirkt.** Im
+ER-Diagramm Entität, Beziehungstyp, Attribut, Kante und *is a*, im
+Relationenmodell Relation und FS-Linie; Auswahl, Notiz, freie Linie und
+Löschen gibt es in beiden. Die Leiste ist damit eine Legende des sichtbaren
+Diagramms — die Bilder oben zeigen den Unterschied —, und die Zifferntasten
+zählen genau die sichtbaren Werkzeuge durch.
+
 **Export als PNG und als SVG.** Das Vektorbild bleibt beim Vergrößern scharf —
 für Arbeitsblätter, Beamer und Ausdruck; LibreOffice und Word fügen es ein wie
 jedes andere Bild. Ist etwas **ausgewählt**, wird nur dieser Ausschnitt
 exportiert, eng zugeschnitten.
+
+**Hell oder dunkel.** Das Programm startet **dunkel**; umgeschaltet wird es
+über *Diagramm › Dunkles Erscheinungsbild*, sofort und ohne Neustart.
+**Exportierte Bilder bleiben immer hell**, egal in welchem Modus gearbeitet
+wird: Ein Arbeitsblatt mit weißer Schrift auf schwarzem Grund will niemand
+ausdrucken.
 
 **Neun Beispiele aus dem Unterricht** liegen bei, vom einfachen Einstieg bis
 zu einer Flughafenverwaltung mit sechs Entitätstypen und fünf Beziehungen.
@@ -86,6 +102,11 @@ in der [Nutzungserlaubnis](LIZENZ.md).
 
 Kostenlos nutzbar und weitergebbar für Unterricht, Ausbildung und
 Selbststudium; keine kommerzielle Nutzung. Siehe **[LIZENZ.md](LIZENZ.md)**.
+
+Mitgeliefert wird **[FlatLaf](https://www.formdev.com/flatlaf/) 3.7.2** unter
+der Apache License 2.0 — daher kommt das dunkle Erscheinungsbild. Die
+Bibliothek steckt in der JAR-Datei, ihr Lizenztext darin unter
+`META-INF/LIZENZ-FlatLaf.txt`.
 
 Ohne Gewährleistung. Das gilt besonders für die erzeugten CREATE-Befehle:
 Sie enthalten auf Wunsch `DROP TABLE IF EXISTS`, und wer ein solches Skript
